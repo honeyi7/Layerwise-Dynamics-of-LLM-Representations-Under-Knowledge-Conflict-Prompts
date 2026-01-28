@@ -1,0 +1,14 @@
+2025-11-19 21:32:07,091 - __main__ - INFO - Checking Baseline Logits for /mnt/afs/zhangyuanhang/qwen2.5/Qwen2.5-32B-Instruct
+2025-11-19 21:34:29,614 - __main__ - INFO - Processing known dataset (4053 samples)...
+2025-11-19 21:34:38,108 - __main__ - INFO - Results for KNOWN:
+2025-11-19 21:34:38,109 - __main__ - INFO -   Mean Logit Diff (True - New): 8.7349 ± 3.6254
+2025-11-19 21:34:38,109 - __main__ - INFO -   Mean Probability (True):      0.2637
+2025-11-19 21:34:38,110 - __main__ - INFO - Processing unknown dataset (9550 samples)...
+2025-11-19 21:34:56,038 - __main__ - INFO - Results for UNKNOWN:
+2025-11-19 21:34:56,039 - __main__ - INFO -   Mean Logit Diff (True - New): 3.4299 ± 4.3126
+2025-11-19 21:34:56,039 - __main__ - INFO -   Mean Probability (True):      0.0305
+2025-11-19 21:34:56,039 - __main__ - INFO - Processing ambiguous dataset (8316 samples)...
+2025-11-19 21:35:12,420 - __main__ - INFO - Results for AMBIGUOUS:
+2025-11-19 21:35:12,421 - __main__ - INFO -   Mean Logit Diff (True - New): 6.9211 ± 3.8989
+2025-11-19 21:35:12,421 - __main__ - INFO -   Mean Probability (True):      0.1507
+2025-11-19 21:35:13,195 - __main__ - INFO - Done.

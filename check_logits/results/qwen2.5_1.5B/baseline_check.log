@@ -1,0 +1,15 @@
+2025-11-19 21:29:01,938 - __main__ - INFO - Checking Baseline Logits for /mnt/afs/zhangyuanhang/qwen2.5/Qwen2.5-1.5B-Instruct
+2025-11-19 21:29:03,808 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-11-19 21:29:12,757 - __main__ - INFO - Processing known dataset (2476 samples)...
+2025-11-19 21:29:13,708 - __main__ - INFO - Results for KNOWN:
+2025-11-19 21:29:13,708 - __main__ - INFO -   Mean Logit Diff (True - New): 7.2893 ± 3.7059
+2025-11-19 21:29:13,708 - __main__ - INFO -   Mean Probability (True):      0.2521
+2025-11-19 21:29:13,708 - __main__ - INFO - Processing unknown dataset (12431 samples)...
+2025-11-19 21:29:16,091 - __main__ - INFO - Results for UNKNOWN:
+2025-11-19 21:29:16,092 - __main__ - INFO -   Mean Logit Diff (True - New): 2.1968 ± 3.6118
+2025-11-19 21:29:16,092 - __main__ - INFO -   Mean Probability (True):      0.0166
+2025-11-19 21:29:16,093 - __main__ - INFO - Processing ambiguous dataset (7012 samples)...
+2025-11-19 21:29:17,727 - __main__ - INFO - Results for AMBIGUOUS:
+2025-11-19 21:29:17,727 - __main__ - INFO -   Mean Logit Diff (True - New): 5.7322 ± 3.8084
+2025-11-19 21:29:17,728 - __main__ - INFO -   Mean Probability (True):      0.1265
+2025-11-19 21:29:19,013 - __main__ - INFO - Done.

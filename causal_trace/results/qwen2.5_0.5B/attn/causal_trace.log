@@ -1,0 +1,11 @@
+2025-11-19 16:45:33,774 - __main__ - INFO - Running ICL-BASED Causal Tracing (Intervention: attn)
+2025-11-19 16:45:38,475 - __main__ - INFO - Processing known
+2025-11-19 16:45:40,675 - __main__ - INFO - Processing unknown
+2025-11-19 16:46:31,827 - __main__ - INFO - Processing ambiguous
+2025-11-19 16:46:49,003 - __main__ - INFO - 
+--- Generating Plots ---
+2025-11-19 16:46:49,226 - __main__ - INFO - Dataset: known, Samples: 442, ATE: -12.2118
+2025-11-19 16:46:49,238 - __main__ - INFO - Dataset: unknown, Samples: 16252, ATE: -9.9457
+2025-11-19 16:46:49,243 - __main__ - INFO - Dataset: ambiguous, Samples: 5225, ATE: -11.5088
+2025-11-19 16:46:50,313 - __main__ - INFO - Plot saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_0.5B/attn2/causal_tracing_attn.png
+2025-11-19 16:46:50,326 - __main__ - INFO - Done.

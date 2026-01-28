@@ -1,0 +1,46 @@
+2025-11-19 21:59:44,839 - __main__ - INFO - Starting causal tracing analysis with FIXED batch processing
+2025-11-19 21:59:44,839 - __main__ - INFO - Arguments: {'model_path': '/mnt/afs/zhangyuanhang/qwen2.5/Qwen2.5-32B-Instruct', 'know_data_path': '/mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/probe_result/qwen2.5_32B/known_bucket.jsonl', 'unknown_data_path': '/mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/probe_result/qwen2.5_32B/unknown_bucket.jsonl', 'ambiguous_data_path': '/mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/probe_result/qwen2.5_32B/ambiguous_bucket.jsonl', 'output_dir': '/mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn', 'max_samples_per_dataset': -1, 'intervention_kind': 'attn', 'batch_size': 10, 'save_interval': 10, 'use_multi_gpu': True, 'resume': False, 'load_in_8bit': False, 'load_in_4bit': False, 'debug_samples': 0}
+2025-11-19 21:59:45,293 - __main__ - INFO - Using 4 GPU(s)
+2025-11-19 21:59:45,293 - __main__ - INFO - Loading model from /mnt/afs/zhangyuanhang/qwen2.5/Qwen2.5-32B-Instruct
+2025-11-19 21:59:45,294 - __main__ - INFO - Using automatic device mapping for multi-GPU
+2025-11-19 22:01:46,626 - __main__ - INFO - Model and tokenizer loaded successfully
+2025-11-19 22:01:46,627 - __main__ - INFO - Intervention type: ATTN
+2025-11-19 22:01:46,627 - __main__ - INFO - Number of layers to trace: 64
+2025-11-19 22:01:46,627 - __main__ - INFO - Batch size: 10
+2025-11-19 22:01:46,882 - __main__ - INFO - Loaded 4053 samples from known dataset
+2025-11-19 22:01:46,883 - __main__ - INFO - Loaded 9550 samples from unknown dataset
+2025-11-19 22:01:46,883 - __main__ - INFO - Loaded 8316 samples from ambiguous dataset
+2025-11-19 22:01:46,883 - __main__ - INFO - 
+--- Processing known dataset ---
+2025-11-19 22:02:14,008 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:02:14,009 - __main__ - INFO - Processed 10 samples total
+2025-11-19 22:02:40,372 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:02:40,372 - __main__ - INFO - Processed 20 samples total
+2025-11-19 22:03:06,690 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:03:06,690 - __main__ - INFO - Processed 30 samples total
+2025-11-19 22:03:33,037 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:03:33,037 - __main__ - INFO - Processed 40 samples total
+2025-11-19 22:03:59,360 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:03:59,361 - __main__ - INFO - Processed 50 samples total
+2025-11-19 22:04:25,747 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:04:25,748 - __main__ - INFO - Processed 60 samples total
+2025-11-19 22:04:52,158 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:04:52,159 - __main__ - INFO - Processed 70 samples total
+2025-11-19 22:05:18,474 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:05:18,474 - __main__ - INFO - Processed 80 samples total
+2025-11-19 22:05:44,823 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:05:44,824 - __main__ - INFO - Processed 90 samples total
+2025-11-19 22:06:11,144 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:06:11,145 - __main__ - INFO - Processed 100 samples total
+2025-11-19 22:06:37,462 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:06:37,463 - __main__ - INFO - Processed 110 samples total
+2025-11-19 22:07:03,634 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:07:03,634 - __main__ - INFO - Processed 120 samples total
+2025-11-19 22:07:29,907 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:07:29,907 - __main__ - INFO - Processed 130 samples total
+2025-11-19 22:07:56,147 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:07:56,148 - __main__ - INFO - Processed 140 samples total
+2025-11-19 22:08:22,439 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:08:22,440 - __main__ - INFO - Processed 150 samples total
+2025-11-19 22:08:48,678 - root - INFO - Checkpoint saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_32B/attn/checkpoint.pkl
+2025-11-19 22:08:48,679 - __main__ - INFO - Processed 160 samples total

@@ -1,0 +1,5 @@
+2025-11-20 12:45:04,261 - [Worker 3] - INFO - Worker 3/4 starting. Intervention: mlp
+2025-11-20 12:53:58,399 - [Worker 3] - INFO - Dataset [known]: Total 5068, Worker 3 processing 1267 samples (3801-5068)
+2025-11-20 13:02:01,028 - [Worker 3] - INFO - Dataset [unknown]: Total 7892, Worker 3 processing 1973 samples (5919-7892)
+2025-11-20 13:14:13,348 - [Worker 3] - INFO - Dataset [ambiguous]: Total 8959, Worker 3 processing 2239 samples (6720-8959)
+2025-11-20 13:28:12,520 - [Worker 3] - INFO - Worker 3 Finished.

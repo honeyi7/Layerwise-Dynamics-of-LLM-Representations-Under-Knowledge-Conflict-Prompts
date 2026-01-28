@@ -1,0 +1,6 @@
+2025-11-20 12:39:36,550 - [Worker 1] - INFO - Worker 1/4 starting. 32B Model Mode.
+2025-11-20 12:39:38,393 - [Worker 1] - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-11-20 12:42:44,603 - [Worker 1] - INFO - [known] Worker 1 processing 1014 (1014-2028)
+2025-11-20 12:45:18,458 - [Worker 1] - INFO - [unknown] Worker 1 processing 2388 (2388-4776)
+2025-11-20 12:51:03,121 - [Worker 1] - INFO - [ambiguous] Worker 1 processing 2079 (2079-4158)
+2025-11-20 12:56:07,148 - [Worker 1] - INFO - Worker 1 Finished.

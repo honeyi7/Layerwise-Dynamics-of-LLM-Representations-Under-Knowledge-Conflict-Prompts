@@ -1,0 +1,8 @@
+2025-11-20 00:22:18,890 - [Worker 1] - INFO - Worker 1/4 starting. 32B Model Mode.
+2025-11-20 00:22:20,182 - [Worker 1] - ERROR - Model load failed: Using `low_cpu_mem_usage=True` or a `device_map` requires Accelerate: `pip install 'accelerate>=0.26.0'`
+2025-11-20 00:30:38,774 - [Worker 1] - INFO - Worker 1/4 starting. 32B Model Mode.
+2025-11-20 00:30:40,645 - [Worker 1] - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-11-20 00:35:14,844 - [Worker 1] - INFO - [known] Worker 1 processing 1014 (1014-2028)
+2025-11-20 00:37:48,855 - [Worker 1] - INFO - [unknown] Worker 1 processing 2388 (2388-4776)
+2025-11-20 00:43:34,142 - [Worker 1] - INFO - [ambiguous] Worker 1 processing 2079 (2079-4158)
+2025-11-20 00:48:38,469 - [Worker 1] - INFO - Worker 1 Finished.

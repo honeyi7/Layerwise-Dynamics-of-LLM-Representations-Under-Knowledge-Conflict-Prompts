@@ -1,0 +1,102 @@
+==================== qwen2.5_0.5B ====================
+  Dataset: [known]
+    - baseline   : Shape = (442, 896)      (N=442, Dim=896)
+    - counterfactual  : Shape = (442, 896)      (N=442, Dim=896)
+
+  Dataset: [unknown]
+    - baseline   : Shape = (600, 896)      (N=600, Dim=896)
+    - counterfactual  : Shape = (600, 896)      (N=600, Dim=896)
+
+  Dataset: [ambiguous]
+    - baseline   : Shape = (600, 896)      (N=600, Dim=896)
+    - counterfactual  : Shape = (600, 896)      (N=600, Dim=896)
+
+
+
+==================== qwen2.5_1.5B ====================
+  Dataset: [known]
+    - baseline   : Shape = (2000, 1536)    (N=2000, Dim=1536)
+    - counterfactual  : Shape = (2000, 1536)    (N=2000, Dim=1536)
+
+  Dataset: [unknown]
+    - baseline   : Shape = (2000, 1536)    (N=2000, Dim=1536)
+    - counterfactual  : Shape = (2000, 1536)    (N=2000, Dim=1536)
+
+  Dataset: [ambiguous]
+    - baseline   : Shape = (2000, 1536)    (N=2000, Dim=1536)
+    - counterfactual  : Shape = (2000, 1536)    (N=2000, Dim=1536)
+
+
+
+==================== qwen2.5_3B ====================
+  Dataset: [known]
+    - baseline   : Shape = (2000, 2048)    (N=2000, Dim=2048)
+    - counterfactual  : Shape = (2000, 2048)    (N=2000, Dim=2048)
+
+  Dataset: [unknown]
+    - baseline   : Shape = (2000, 2048)    (N=2000, Dim=2048)
+    - counterfactual  : Shape = (2000, 2048)    (N=2000, Dim=2048)
+
+  Dataset: [ambiguous]
+    - baseline   : Shape = (2000, 2048)    (N=2000, Dim=2048)
+    - counterfactual  : Shape = (2000, 2048)    (N=2000, Dim=2048)
+
+
+==================== qwen2.5_7B ====================
+  Dataset: [known]
+    - baseline   : Shape = (2000, 3584)    (N=2000, Dim=3584)
+    - counterfactual  : Shape = (2000, 3584)    (N=2000, Dim=3584)
+
+  Dataset: [unknown]
+    - baseline   : Shape = (2000, 3584)    (N=2000, Dim=3584)
+    - counterfactual  : Shape = (2000, 3584)    (N=2000, Dim=3584)
+
+  Dataset: [ambiguous]
+    - baseline   : Shape = (2000, 3584)    (N=2000, Dim=3584)
+    - counterfactual  : Shape = (2000, 3584)    (N=2000, Dim=3584)
+
+
+
+==================== qwen2.5_14B ====================
+  Dataset: [known]
+    - baseline   : Shape = (2000, 5120)    (N=2000, Dim=5120)
+    - counterfactual  : Shape = (2000, 5120)    (N=2000, Dim=5120)
+
+  Dataset: [unknown]
+    - baseline   : Shape = (2000, 5120)    (N=2000, Dim=5120)
+    - counterfactual  : Shape = (2000, 5120)    (N=2000, Dim=5120)
+
+  Dataset: [ambiguous]
+    - baseline   : Shape = (2000, 5120)    (N=2000, Dim=5120)
+    - counterfactual  : Shape = (2000, 5120)    (N=2000, Dim=5120)
+
+
+
+==================== qwen2.5_32B ====================
+  Dataset: [known]
+    - baseline   : Shape = (2000, 5120)    (N=2000, Dim=5120)
+    - counterfactual  : Shape = (2000, 5120)    (N=2000, Dim=5120)
+
+  Dataset: [unknown]
+    - baseline   : Shape = (2000, 5120)    (N=2000, Dim=5120)
+    - counterfactual  : Shape = (2000, 5120)    (N=2000, Dim=5120)
+
+  Dataset: [ambiguous]
+    - baseline   : Shape = (2000, 5120)    (N=2000, Dim=5120)
+    - counterfactual  : Shape = (2000, 5120)    (N=2000, Dim=5120)
+
+
+
+==================== qwen2.5_72B ====================
+  Dataset: [known]
+    - baseline   : Shape = (2000, 8192)    (N=2000, Dim=8192)
+    - counterfactual  : Shape = (2000, 8192)    (N=2000, Dim=8192)
+
+  Dataset: [unknown]
+    - baseline   : Shape = (2000, 8192)    (N=2000, Dim=8192)
+    - counterfactual  : Shape = (2000, 8192)    (N=2000, Dim=8192)
+
+  Dataset: [ambiguous]
+    - baseline   : Shape = (2000, 8192)    (N=2000, Dim=8192)
+    - counterfactual  : Shape = (2000, 8192)    (N=2000, Dim=8192)
+

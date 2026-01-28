@@ -1,0 +1,5 @@
+2025-11-20 12:37:31,179 - [Worker 3] - INFO - Worker 3/4 starting. Intervention: attn
+2025-11-20 12:47:58,801 - [Worker 3] - INFO - Dataset [known]: Total 5068, Worker 3 processing 1267 samples (3801-5068)
+2025-11-20 12:55:58,349 - [Worker 3] - INFO - Dataset [unknown]: Total 7892, Worker 3 processing 1973 samples (5919-7892)
+2025-11-20 13:08:05,018 - [Worker 3] - INFO - Dataset [ambiguous]: Total 8959, Worker 3 processing 2239 samples (6720-8959)
+2025-11-20 13:21:57,905 - [Worker 3] - INFO - Worker 3 Finished.

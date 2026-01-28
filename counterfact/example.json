@@ -1,0 +1,57 @@
+{
+    "case_id": 2467,
+    "pararel_idx": 7187,
+    "requested_rewrite": {
+        "prompt": "{} is located in the country of",
+        "relation_id": "P17",
+        "subject": "Sakarya Province",
+        "target_new": {
+            "id": "Q36",
+            "str": "Poland"
+        },
+        "target_true": {
+            "id": "Q43",
+            "str": "Turkey"
+        }
+    },
+    "paraphrase_prompts": [
+        "The original pressing totaled 200 copies. Sakarya Province, in",
+        "players\nCategory:Association football forwards Sakarya Province, which is located in"
+    ],
+    "neighborhood_prompts": [
+        "Bursa, located in",
+        "Temple of Artemis is located in the country of",
+        "Balıkesir Province, located in",
+        "Adana Province, located in",
+        "Trabzon, located in",
+        "Balıkesir Province is located in the country of",
+        "Ubykh is located in the country of",
+        "Çanakkale Province, located in",
+        "Thrace, located in",
+        "Edirne is located in the country of"
+    ],
+    "attribute_prompts": [
+        "Cewice, in",
+        "Pułtusk, in",
+        "Gładyszów is located in the country of",
+        "Gładyszów, which is located in",
+        "Tawęcino, located in",
+        "Pomeranian Voivodeship is located in",
+        "Greater Poland Voivodeship is located in",
+        "Koszalin is located in the country of",
+        "Allegro, located in",
+        "West Pomeranian Voivodeship, located in"
+    ],
+    "generation_prompts": [
+        "The best restaurants around Sakarya Province include",
+        "One can get to Sakarya Province by navigating",
+        "Sakarya Province's surroundings include",
+        "Sakarya Province's surroundings include",
+        "The best restaurants around Sakarya Province include",
+        "One can get to Sakarya Province by navigating",
+        "Sakarya Province's surroundings include",
+        "The best restaurants around Sakarya Province include",
+        "The best restaurants around Sakarya Province include",
+        "The best restaurants around Sakarya Province include"
+    ]
+}

@@ -1,0 +1,12 @@
+2025-11-22 15:40:56,030 - __main__ - INFO - Running ICL-BASED Causal Tracing (Intervention: mlp)
+2025-11-22 15:40:57,016 - accelerate.utils.modeling - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2025-11-22 15:41:45,725 - __main__ - INFO - Processing known
+2025-11-22 15:45:13,030 - __main__ - INFO - Processing unknown
+2025-11-22 15:52:19,228 - __main__ - INFO - Processing ambiguous
+2025-11-22 15:59:57,914 - __main__ - INFO - 
+--- Generating Plots ---
+2025-11-22 15:59:57,956 - __main__ - INFO - Dataset: known, Samples: 4078, ATE: -11.4401
+2025-11-22 15:59:57,969 - __main__ - INFO - Dataset: unknown, Samples: 8748, ATE: -11.0414
+2025-11-22 15:59:57,983 - __main__ - INFO - Dataset: ambiguous, Samples: 9093, ATE: -11.0555
+2025-11-22 15:59:59,282 - __main__ - INFO - Plot saved to /mnt/afs/zhangyuanhang/kaggle_pipeline/interplay/causal_trace_results/qwen2.5_14B/mlp3/causal_tracing_mlp.png
+2025-11-22 15:59:59,288 - __main__ - INFO - Done.
